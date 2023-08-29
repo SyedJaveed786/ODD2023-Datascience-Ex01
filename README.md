@@ -127,7 +127,7 @@ df
 ![image](https://github.com/SyedJaveed786/ODD2023-Datascience-Ex01/assets/106874713/e6784814-c9db-4c1a-85d0-355d33191203)
 ![image](https://github.com/SyedJaveed786/ODD2023-Datascience-Ex01/assets/106874713/2b8589ca-53a6-495d-ab30-286f95e97675)
 
-# RESULT
+# RESULT:
 
 Thus,the given data is cleansed and the cleaned data is saved into the file.
 
