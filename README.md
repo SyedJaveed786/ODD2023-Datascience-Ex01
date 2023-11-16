@@ -5,11 +5,11 @@
 ## AIM
 To read the given data and perform data cleaning and save the cleaned data to a file. 
 
-# Explanation
+## Explanation
 Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect ,incompleted , irrelevant , duplicated or improperly formatted. 
 Data cleaning is not simply about erasing data ,but rather finding a way to maximize datasets accuracy without necessarily deleting the information. 
 
-# ALGORITHM
+## ALGORITHM
 ### STEP 1
 Read the given Data
 ### STEP 2
@@ -19,7 +19,11 @@ Remove the null values from the data
 ### STEP 4
 Save the Clean data to the file
 
-# CODE and OUTPUT
+## CODE:
+DEVELPOED BY : SYED JAVEED H
+
+REGISTER NO : 212221220063
+```
 DATA CLEANING HANDLING NULL VALUES
 
 import pandas as pd
@@ -109,6 +113,9 @@ df
 for x in df.index: if df.loc[x,"AVG"]>100: df.drop(x,inplace=True)
 
 df
+```
+## OUTPUT:
+
 ![image](https://github.com/SyedJaveed786/ODD2023-Datascience-Ex01/assets/106874713/e1d0289d-2a36-4a14-b5a3-6145a15f3769)
 ![image](https://github.com/SyedJaveed786/ODD2023-Datascience-Ex01/assets/106874713/6cd0b29e-a964-432e-b2b2-77b2dfeef130)
 ![image](https://github.com/SyedJaveed786/ODD2023-Datascience-Ex01/assets/106874713/171d21b3-0847-4faf-948d-acf963038849)
@@ -128,7 +135,7 @@ df
 ![image](https://github.com/SyedJaveed786/ODD2023-Datascience-Ex01/assets/106874713/e6784814-c9db-4c1a-85d0-355d33191203)
 ![image](https://github.com/SyedJaveed786/ODD2023-Datascience-Ex01/assets/106874713/2b8589ca-53a6-495d-ab30-286f95e97675)
 
-# RESULT:
+## RESULT:
 
 Thus,the given data is cleansed and the cleaned data is saved into the file.
 
